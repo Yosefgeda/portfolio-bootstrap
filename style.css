@@ -1,0 +1,10 @@
+
+#intro-section {
+  background-image: url(./images/desktop-header-bg.png);
+  background-size: cover;
+  height: 80vh;
+}
+
+#intro-section > div {
+  max-width: 750px;
+}
