@@ -8,3 +8,13 @@
 #intro-section > div {
   max-width: 750px;
 }
+
+/* Work Section */
+
+.worcads {
+  min-height: 448px;
+}
+
+.worcads:hover {
+  outline: 2px solid lightseagreen;
+}
