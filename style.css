@@ -20,19 +20,19 @@
 }
 
 #contact {
-  background:  #6070FF url(./images/desktop-header-bg.png);
+  background: #6070ff url(./images/desktop-header-bg.png);
   background-size: cover;
   border-top-left-radius: 26%;
 }
 
-#contact-btn, #about-btn {
+#contact-btn,
+#about-btn {
   border: none;
   border-radius: 8px;
   width: 142px;
-  height: 48px;
-  
+  height: 48px; 
 }
 
 #about-btn {
-  border: #6070FF 1px solid;
+  border: #6070ff 1px solid;
 }
