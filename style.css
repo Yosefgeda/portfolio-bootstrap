@@ -1,0 +1,38 @@
+
+#intro-section {
+  background-image: url(./images/desktop-header-bg.png);
+  background-size: cover;
+  height: 80vh;
+}
+
+#intro-section > div {
+  max-width: 750px;
+}
+
+/* Work Section */
+
+.worcads {
+  min-height: 448px;
+}
+
+.worcads:hover {
+  outline: 2px solid lightseagreen;
+}
+
+#contact {
+  background: #6070ff url(./images/desktop-header-bg.png);
+  background-size: cover;
+  border-top-left-radius: 26%;
+}
+
+#contact-btn,
+#about-btn {
+  border: none;
+  border-radius: 8px;
+  width: 142px;
+  height: 48px;
+}
+
+#about-btn {
+  border: #6070ff 1px solid;
+}
