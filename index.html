@@ -10,17 +10,32 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-  <header class="d-flex justify-content-between p-4 px-5">
-    <span class="text-primary fw-bold">My Logo</span>
-    <nav class="nav gap-5">
-      <a>Portfolio</a>
-      <a>About</a>
-      <a>Contact</a>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="fw-bold text-decoration-none color-primary p-3" href="#">My Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse p-3 text-end" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
   <section id="intro-section" class="d-flex justify-content-center align-items-center">
-    <div>
+    <div class="container">
       <h1 class="fw-bold">
         I'm Alexanadra
         <br>
@@ -61,7 +76,7 @@
     </div>
   </section>
 
-  <section class="work bg-secondary bg-opacity-25 pt-5 row gap-5 ">
+  <section class="work d-flex flex-column bg-secondary bg-opacity-25 pt-5 gap-5 ">
     <div class="worcads col-10 d-flex justify-content-center align-items-center gap-5 border bg-white p-5 px-3 rounded-5 container-md">
       <div class="card border-0 d-flex justify-content-start">
         <div class="card-body">
@@ -158,7 +173,7 @@
     <div class="worcads col-10 d-flex justify-content-center align-items-center gap-5 border bg-white p-5 px-3 rounded-5 container-md">
       <div class="card border-0 d-flex justify-content-start">
         <div class="card-body">
-          <div class="row flex-sm-column-reverse flex-md-row">
+          <div class="row flex-column-reverse flex-md-row">
             <div class="col d-flex flex-column align-items-start gap-2">
               <h1 class="px-0 card-header border-0 bg-white fw-bolder">Uber Navigation</h1>            
               <ul class="list-group list-group-horizontal gap-5 ps-0">
